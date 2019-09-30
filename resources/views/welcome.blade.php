@@ -64,8 +64,12 @@
         </style>
     </head>
     <body>
-        <div class="container" id="app">
-            <coin-add-component></coin-add-component>
+        <div id="app">
+            <example-component></example-component>
+        </div>
+        <div class="container">
+            <p>Test</p>
+
         </div>
         <script>
             window.Laravel = <?php echo json_encode([
